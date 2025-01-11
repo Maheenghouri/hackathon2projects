@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.designed-star {
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  }
   font{
     font-family: 'Times New Roman', Times, ;
   }
@@ -12,15 +9,8 @@
     height: 242px;
   }
 
-  .casual{
-    Width:407px;
-    height: 289px;
-
-  }
-  .formalwear{
-    height: 325px;
-    width: 581px;
-  }
+  
+  
 .main-product{
     Width:444px;
     height:530px;

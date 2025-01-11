@@ -27,44 +27,46 @@ export default function Home() {
 
         <div className="relative md:w-1/2 max-w-md lg:max-w-full mt-8 lg:mt-0">
           <Image
-            src="/images/fashion.jpeg"
+            src="/images/fashion1.png"
             alt="Fashion Style"
             width={500}
             height={800}
             className="rounded-lg shadow-lg w-full h-auto object-cover"
           />
-
-
-          <div className="absolute top-4 left-8 w-14 h-14 bg-black transform rotate-45"></div>
-          <div className="absolute top-4 right-8 w-14 h-14 bg-black transform rotate-45"></div>
         </div>
       </section>
       <section className="bg-black py-6">
+
         <div className="flex justify-center items-center space-x-14">
-          <img
+          <Image
             src="/images/ver.png"
             alt="Versace"
-            className="w-24"
+            width={96}
+            height={96}
           />
-          <img
+          <Image
             src="/images/zara.png"
             alt="Zara"
-            className="w-24"
+            width={96}
+            height={96}
           />
-          <img
+          <Image
             src="/images/gucci.jpg"
             alt="Gucci"
-            className="w-24"
+            width={96}
+            height={96}
           />
-          <img
+          <Image
             src="/images/prada.jpg"
             alt="Prada"
-            className="w-24"
+            width={96}
+            height={96}
           />
-          <img
+          <Image
             src="/images/calvin.png"
             alt="Calvin Klein"
-            className="w-24"
+            width={96}
+            height={96}
           />
         </div>
       </section>
@@ -78,10 +80,12 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-8 ">
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/T-shirt.png"
               alt="T-shirt with Tape Details"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">T-shirt with Tape Details</h3>
             <div className="flex mb-2">
@@ -91,10 +95,12 @@ export default function Home() {
             <p className="text-lg font-bold">$120</p>
           </div>
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/jeans.png"
               alt="Skinny Fit Jeans"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">Skinny Fit Jeans</h3>
             <div className="flex items-center mb-2">
@@ -107,10 +113,12 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/shirt.png"
               alt="Checkered Shirt"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">Checkered Shirt</h3>
             <div className="flex items-center mb-2">
@@ -120,10 +128,12 @@ export default function Home() {
             <p className="text-lg font-bold">$180</p>
           </div>
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/stripesshirt.png"
               alt="Sleeve Striped T-shirt"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">Sleeve Striped T-shirt</h3>
             <div className="flex items-center mb-2">
@@ -152,10 +162,12 @@ export default function Home() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-8 ">
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/Verticalstriped.png"
               alt="T-shirt with Tape Details"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">T-shirt with Tape Details</h3>
             <div className="flex items-center mb-2">
@@ -168,10 +180,12 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/courageshirt.png"
               alt="Skinny Fit Jeans"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">Skinny Fit Jeans</h3>
             <div className="flex items-center mb-2">
@@ -181,10 +195,12 @@ export default function Home() {
             <p className="text-lg font-bold">$145</p>
           </div>
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/looseshort.png"
               alt="Checkered Shirt"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">Checkered Shirt</h3>
             <div className="flex items-center mb-2">
@@ -194,10 +210,12 @@ export default function Home() {
             <p className="text-lg font-bold">$80</p>
           </div>
           <div className="bg-white p-4 rounded-lg hover:shadow-lg transition-shadow">
-            <img
+            <Image
               src="/images/fadedjeans.png"
               alt="Sleeve Striped T-shirt"
-              className="w-full h-auto rounded-md mb-4 object-cover image-size"
+              width={500}
+              height={500}
+              className="rounded-md mb-4 object-cover image-size"
             />
             <h3 className="text-sm font-medium mb-2">Sleeve Striped T-shirt</h3>
             <div className="flex items-center mb-2">
@@ -215,44 +233,56 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <section className="container max-w-7xl mx-auto py-10 px-5">
-        <div className="text-center">
-          <h2 className="text-4xl md:text-5xl font-extrabold relative inline-block text-center">BROWSE BY DRESS STYLE</h2>
+      <section className="container max-w-7xl mx-auto py-10 px-5 bg-gray-100">
+
+        <div className="text-center mb-8">
+          <h2 className="text-4xl md:text-5xl font-extrabold">
+            BROWSE BY DRESS STYLE
+          </h2>
         </div>
-        <div className="grid grid-cols-2 gap-4 p-8 bg-gray-100">
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img
-              src="/images/casual.png"
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6 bg-gray-100 rounded-lg shadow-lg">
+          <div className="bg-white rounded-lg overflow-hidden">
+            <Image
+              src="/images/casual2.png"
               alt="Casual"
-              className="w-full h-48 object-none casual"
+              width={500}
+              height={240}
+              className="w-full h-60 object-fit"
             />
-            <div className="p-4 text-center font-bold">Casual</div>
           </div>
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img
-              src="/images/formal.png"
+
+          <div className="bg-white rounded-lg overflow-hidden">
+            <Image
+              src="/images/formal3.png"
               alt="Formal"
-              className="w-full h-48 object-cover formalwear "
+              width={500}
+              height={240}
+              className="w-full h-60 object-fit"
             />
-            <div className="p-4 text-center font-bold">Formal</div>
           </div>
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img
-              src="/images/partywear.png"
+
+          <div className="bg-white rounded-lg overflow-hidden">
+            <Image
+              src="/images/partywear2.png"
               alt="Party"
-              className="w-full h-48 object-cover formalwear"
+              width={500}
+              height={240}
+              className="w-full h-60 object-fit"
             />
-            <div className="p-4 text-center font-bold">Party</div>
           </div>
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
-            <img
-              src="/images/gym.png"
+
+          <div className="bg-white rounded-lg overflow-hidden">
+            <Image
+              src="/images/gym2.png"
               alt="Gym"
-              className="w-full h-48 object-none casual "
+              width={500}
+              height={240}
+              className="w-full h-60 object-fit"
             />
-            <div className="p-4 text-center font-bold">Gym</div>
           </div>
         </div>
+
+
       </section>
       <section className="container max-w-7xl mx-auto py-10 px-5">
         <div className="flex items-center justify-between">

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from "next/image";
 
 export default function Header() {
     return (
@@ -20,76 +21,57 @@ export default function Header() {
 
 
                 <nav className="flex space-x-6">
-                    <Link href="/shop" className="hover:text-gray-600">
-                        Shop
+                    <Link href="/" className="hover:text-gray-600">
+                        Home
                     </Link>
-                    <Link href="/onsale" className="hover:text-gray-600">
-                        On Sale
+                    <Link href="/productPage" className="hover:text-gray-600">
+                        Product
                     </Link>
-                    <Link href="/newarrivals" className="hover:text-gray-600">
-                        New Arrivals
+                    <Link href="/categorypage" className="hover:text-gray-600">
+                        Category
                     </Link>
-                    <Link href="/brands" className="hover:text-gray-600">
-                        Brands
+                    <Link href="/cartpage" className="hover:text-gray-600">
+                        Cart
                     </Link>
                 </nav>
 
 
                 <div className="flex items-center space-x-2 bg-gray-100 rounded-full px-4 py-2 w-1/3">
+                <Image
+                        src="/images/search.png"
+                        alt="Search"
+                        width={16}
+                        height={16}
+                        className="text-gray-400"
+                    />
                     <input
+                    
                         type="text"
                         placeholder="Search for products..."
                         className="flex-grow bg-transparent outline-none text-sm"
                     />
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5 text-gray-500"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                        />
-                    </svg>
+                    
                 </div>
 
 
                 <div className="flex items-center space-x-4">
                     <Link href="/cart">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l1 5m10-5l-1 5m-10 0h10"
-                            />
-                        </svg>
+                        <Image
+                            src="/images/cart.png"
+                            alt="Cart"
+                            width={24}
+                            height={24}
+                            className="hover:opacity-80"
+                        />
                     </Link>
                     <Link href="/account">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d="M5.121 17.804A4 4 0 0112 15m0 0a4 4 0 016.879 2.804M12 15v5m0-5a4 4 0 01-6.879 2.804M12 5a3 3 0 100 6 3 3 0 000-6z"
-                            />
-                        </svg>
+                        <Image
+                            src="/images/account.png"
+                            alt="Account"
+                            width={24}
+                            height={24}
+                            className="hover:opacity-80"
+                        />
                     </Link>
                 </div>
             </div>
